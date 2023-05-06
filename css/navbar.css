@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: black;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: start;
+}
+
+li {
+  margin: 0 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding-left: 40px;
+}
+
+.buscar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.buscar-form label {
+  color: black;
+}
+
+.btn-usuario {
+  width: 240px;
+  height: 30px;
+  margin-left: 10%;
+  text-align: center;
+  background-color: forestgreen;
+  color: white;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.btn-usuario:hover {
+  cursor: pointer;
+  background-color: darkgreen;
+}
+
+.buscar-form {
+  width: 100%;
+  padding-left: 45%;
+}
+
+.tabla-usuarios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.user-table {
+  border-spacing: 0;
+  border-collapse: separate;
+  border: solid black 1px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  width: 100%;
+  max-width: 80%;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-table th:hover {
+  cursor: auto;
+}
+
+.user-table tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+th:nth-child(2) {
+  border-top-left-radius: 20px;
+}
+
+th:last-child {
+  border-top-right-radius: 20px;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius: 20px;
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius: 20px;
+}

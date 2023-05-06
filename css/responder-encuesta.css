@@ -1,0 +1,37 @@
+ .ventana-responder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+ }
+
+.btn-responder{
+	margin-top: 30px;
+	background-color: green;
+	color: white;
+	font-size: larger;
+	padding: 10px 20px;
+}
+.btn-responder:hover{
+	background-color: darkgreen;
+}
+
+ table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+input[type="radio"] {
+	margin-right: 8px;
+}
+
